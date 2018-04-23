@@ -1,0 +1,53 @@
+body,html {
+  width: 99vw;
+  height: 97vh;
+  margin: 0;
+  padding: 0;
+  background: #dddada;
+}
+div, ul {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.hearder {
+    /* position: fixed; */
+    background: #232836;
+    overflow: hidden;
+}
+.content {
+    width: 80vw;
+    height: 8vh;
+    margin: 0 auto;
+    display: flex;
+}
+.logo {
+    width: 20vw;
+    line-height: 8vh;
+    font-size: 26px;
+    color: #fff;
+}
+.menuList {
+    width: 60vw;
+}
+.hearder-menu {
+    width: 60vw;
+    height: 8vh;
+    overflow: hidden;
+}
+.hearder-menu li{
+    width: 5vw;
+    height: 8vh;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 8vh;
+    cursor: pointer;
+}
+.hearder-menu li:hover, .li-active {
+    background: #1e232e
+}
