@@ -9,3 +9,4 @@
 5.初始化时需要安装依赖（yarn install || npm install）
 
 6.测试数据库联通方式（需要在数据库中创建test表，然后insert一条数据用作测试），可以在浏览器输入地址  localhost:3000/test 有数据返回就说明数据库连接成功
+
